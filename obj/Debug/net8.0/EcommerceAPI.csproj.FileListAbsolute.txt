@@ -111,3 +111,4 @@
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/obj/Debug/net8.0/EcommerceAPI.pdb
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/obj/Debug/net8.0/EcommerceAPI.genruntimeconfig.cache
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/obj/Debug/net8.0/ref/EcommerceAPI.dll
+/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/obj/Debug/net8.0/EcommerceAPI.sourcelink.json
