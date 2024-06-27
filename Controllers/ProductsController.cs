@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 using Microsoft.AspNetCore.Authorization;
 
-
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class ProductsController : ControllerBase
@@ -61,7 +61,7 @@ public class ProductsController : ControllerBase
 
     }
 
-    // POST: api/Products
+    // POST: api/products
     [HttpPost]
     public async Task<ActionResult<Product>> PostProduct(Product product)
     {

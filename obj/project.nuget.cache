@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "brtvGschKVI=",
+  "dgSpecHash": "7XR8M43biu0=",
   "success": true,
   "projectFilePath": "/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/EcommerceAPI.csproj",
   "expectedPackageFiles": [
+    "/Users/andersonlugojacome/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/andersonlugojacome/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/andersonlugojacome/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.6/microsoft.aspnetcore.authentication.jwtbearer.8.0.6.nupkg.sha512",
     "/Users/andersonlugojacome/.nuget/packages/microsoft.aspnetcore.openapi/8.0.6/microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",

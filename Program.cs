@@ -5,6 +5,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Manually add the services form Startup.cs
+var startup = new Startup(builder.Configuration);
+startup.ConfigureServices(builder.Services);
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -14,7 +20,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 var summaries = new[]
 {
@@ -35,6 +41,8 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
+
+startup.Configure(app, app.Environment);
 
 app.Run();
 

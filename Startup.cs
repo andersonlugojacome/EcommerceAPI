@@ -16,6 +16,8 @@ public class Startup
 
     public void ConfigureServices(IServiceCollection services)
     {
+        var _configuration = Configuration;
+        var key = Encoding.ASCII.GetBytes(Configuration["Jwt:Key"]);
         services.AddDbContext<EcommerceContext>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection"),
             new MySqlServerVersion(new Version(8, 3, 0))));
         services.AddControllers();
@@ -29,9 +31,9 @@ public class Startup
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = "Jwt:Issuer",
-                    ValidAudience = "Jwt:Issuer",
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Jwt:Key"))
+                    ValidIssuer = _configuration["Jwt:Issuer"],
+                    ValidAudience = _configuration["Jwt:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(key)
                 };
             });
     }
@@ -48,7 +50,7 @@ public class Startup
             app.UseExceptionHandler("/Error");
             app.UseHsts();
         }
-        app.UseHttpsRedirection();
+        //app.UseHttpsRedirection();
         app.UseRouting();
         app.UseAuthentication();
         app.UseAuthorization();
