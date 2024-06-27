@@ -1,4 +1,5 @@
 using EcommerceAPI.Data;
+using EcommerceAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 
 [Route("api/[controller]")]
@@ -11,5 +12,18 @@ public class AuthController : ControllerBase{
     {
         _context = context;
         _configuration = configuration;
+    }
+    [HttpPost("register")]
+    public async Task<IActionResult> Register(User user)
+    {
+        user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+        _context.Users.Add(user);
+        await _context.SaveChangesAsync();
+        return Ok(new { message = "User created with success, DigitaleWeb" });
+    }
+
+    [HttpPost("login")]
+    public async Task<IActionResult> Login(User loginUser){
+        
     }
 }
