@@ -19,7 +19,7 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         var _configuration = Configuration;
-        var key = Encoding.ASCII.GetBytes(Configuration["Jwt:Key"]);
+        var key = Encoding.ASCII.GetBytes(Configuration["Jwt:Key"]!);
         services.AddDbContext<EcommerceContext>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection"),
             new MySqlServerVersion(new Version(8, 3, 0))));
         services.AddControllers();

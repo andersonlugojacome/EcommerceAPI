@@ -6,8 +6,6 @@
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/obj/Debug/net8.0/EcommerceAPI.sourcelink.json
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/appsettings.Development.json
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/appsettings.json
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/obj/EcommerceAPI.Tests.csproj.nuget.dgspec.json
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/obj/project.assets.json
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.deps.json
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.runtimeconfig.json
@@ -113,12 +111,5 @@
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/obj/Debug/net8.0/EcommerceAPI.pdb
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/obj/Debug/net8.0/EcommerceAPI.genruntimeconfig.cache
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/obj/Debug/net8.0/ref/EcommerceAPI.dll
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/bin/Debug/net8.0/appsettings.Development.json
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/bin/Debug/net8.0/appsettings.json
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/bin/Debug/net8.0/EcommerceAPI.deps.json
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/bin/Debug/net8.0/EcommerceAPI.runtimeconfig.json
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/bin/Debug/net8.0/EcommerceAPI.Tests.deps.json
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/bin/Debug/net8.0/EcommerceAPI.Tests.runtimeconfig.json
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/bin/Debug/net8.0/EcommerceAPI.Tests/obj/EcommerceAPI.Tests.csproj.nuget.dgspec.json
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/bin/Debug/net8.0/EcommerceAPI.Tests/obj/project.assets.json
-/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/obj/Debug/net8.0/EcommerceAPI.Tests.sourcelink.json
+/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/obj/Debug/net8.0/EcommerceAPI.AssemblyInfoInputs.cache
+/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/obj/Debug/net8.0/EcommerceAPI.AssemblyInfo.cs
