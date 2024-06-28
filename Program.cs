@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,37 +18,33 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    // app.UseSwagger();
+    // app.UseSwaggerUI(c =>
+    // {
+    //     c.SwaggerEndpoint("/swagger/v1/swagger.json", "EcommerceAPI v1");
+    //     c.RoutePrefix = string.Empty; // Para que Swagger UI esté en la raíz
+    // });
+    
+    
 }
 
 //app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
 
 startup.Configure(app, app.Environment);
 
-app.Run();
+// Open API Documentation browser
+var urlSwagger = "http://localhost:5070/index.html";
+try{
+    var psi = new ProcessStartInfo
+    {
+        FileName = urlSwagger,
+        UseShellExecute = true
+    };
+    Process.Start(psi);
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+}catch(Exception ex){
+    Console.WriteLine(String.Format("Error al abrir el navegador: {0}, but you can open manually: {1}", ex.Message, urlSwagger));
 }
+
+app.Run();
