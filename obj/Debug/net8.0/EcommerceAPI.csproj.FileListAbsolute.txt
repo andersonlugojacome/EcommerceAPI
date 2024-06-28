@@ -116,3 +116,4 @@
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/obj/Debug/net8.0/EcommerceAPI.Tests.sourcelink.json
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/obj/EcommerceAPI.Tests.csproj.nuget.dgspec.json
 /Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/obj/project.assets.json
+/Users/andersonlugojacome/Library/CloudStorage/SynologyDrive-demand/works/GitHub/BackendCsharp/EcommerceAPI/bin/Debug/net8.0/EcommerceAPI.Tests/obj/project.packagespec.json
