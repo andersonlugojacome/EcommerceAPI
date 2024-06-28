@@ -61,7 +61,7 @@ Start the application with the command:
 dotnet run
 ```
 
-The API will be available at `https://localhost:5001`, and Swagger UI will open automatically at `https://localhost:5001/swagger/index.html`.
+The API will be available at `https://localhost:5070`, and Swagger UI will open automatically at `https://localhost:5070/index.html`.
 
 ## Available Endpoints
 
@@ -143,7 +143,7 @@ Endpoints protected with JWT. Add the token in the `Authorization` header with t
 
 ## API Documentation with Swagger
 
-The API includes Swagger integration for easy documentation and testing of endpoints. Swagger UI will automatically open in the browser when running the application with `dotnet run`, accessible at `https://localhost:5001/swagger/index.html`.
+The API includes Swagger integration for easy documentation and testing of endpoints. Swagger UI will automatically open in the browser when running the application with `dotnet run`, accessible at `https://localhost:5070/index.html`.
 
 ## Contribution
 
@@ -218,7 +218,7 @@ Iniciar la aplicación con el comando:
 dotnet run
 ```
 
-La API estará disponible en `https://localhost:5001` y Swagger UI se abrirá automáticamente en `https://localhost:5001/swagger/index.html`.
+La API estará disponible en `https://localhost:5070` y Swagger UI se abrirá automáticamente en `https://localhost:5070/index.html`.
 
 ## Endpoints Disponibles
 
