@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceAPI", "EcommerceAPI.csproj", "{D57B5BEE-9C6F-4B2C-BE70-111F6271387F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceAPI.Tests", "EcommerceAPI.Tests\EcommerceAPI.Tests.csproj", "{A085708B-BB9F-408D-834B-FC2C53C386E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,5 +24,9 @@ Global
 		{D57B5BEE-9C6F-4B2C-BE70-111F6271387F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D57B5BEE-9C6F-4B2C-BE70-111F6271387F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D57B5BEE-9C6F-4B2C-BE70-111F6271387F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A085708B-BB9F-408D-834B-FC2C53C386E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A085708B-BB9F-408D-834B-FC2C53C386E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A085708B-BB9F-408D-834B-FC2C53C386E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A085708B-BB9F-408D-834B-FC2C53C386E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

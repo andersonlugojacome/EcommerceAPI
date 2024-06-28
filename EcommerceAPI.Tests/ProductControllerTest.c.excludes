@@ -1,0 +1,34 @@
+using Xunit;
+using Moq;
+using EcommerceAPI.Controllers;
+using EcommerceAPI.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
+
+public class ProductControllerTests
+{
+    private readonly ProductController _controller;
+    private readonly Mock<DbSet<Product>> _mockSet;
+    private readonly Mock<EcommerceContext> _mockContext;
+
+    public ProductControllerTests()
+    {
+        _mockSet = new Mock<DbSet<Product>>();
+        _mockContext = new Mock<EcommerceContext>();
+        _mockContext.Setup(m => m.Products).Returns(_mockSet.Object);
+        _controller = new ProductController(_mockContext.Object);
+    }
+
+    [Fact]
+    public async Task GetProduct_ReturnsProduct()
+    {
+        var productId = 1;
+        var product = new Product { Id = productId, Name = "TestProduct" };
+
+        _mockSet.Setup(m => m.FindAsync(productId)).ReturnsAsync(product);
+
+        var result = await _controller.GetProduct(productId);
+
+        Assert.Equal(product, result.Value);
+    }
+}
