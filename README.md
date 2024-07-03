@@ -1,6 +1,8 @@
 # EcommerceAPI - DigitalesWeb - English
 
-EcommerceAPI is a RESTful API for E-commerce Management developed using ASP.NET Core, Entity Framework Core, MySQL, and JWT for security. This project serves as an example of implementing a complete API with JWT-based authentication and authorization, and CRUD operations for product management.
+EcommerceAPI is a RESTful API for E-commerce Management developed using ASP.NET Core, Entity Framework Core, MySQL, and JWT for security. This project serves as an example of implementing a complete API with JWT-based authentication and authorization, and CRUD operations for product management. 
+
+# If you like it, please click to show your support. ⭐️Star
 
 ## Features
 
